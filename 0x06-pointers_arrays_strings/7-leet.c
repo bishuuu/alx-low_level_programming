@@ -6,7 +6,7 @@
  */
 char *leet(char *s)
 {
-int i;  
+int i;
 for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == 'a' || s[i] == 'A')
@@ -19,6 +19,6 @@ if (s[i] == 't' || s[i] == 'T')
 s[i] = '7';
 if (s[i] == 'l' || s[i] == 'L')
 s[i] = '1';
-} 
+}
 return (s);
 }
