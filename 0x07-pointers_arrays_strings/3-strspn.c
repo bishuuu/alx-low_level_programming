@@ -30,6 +30,6 @@ if (prev == count)
 break;
 }
 i++;
-} 
+}
 return (count);
 }
